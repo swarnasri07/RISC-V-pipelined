@@ -6,7 +6,7 @@
 
 ## Core Features
 * 5-Stage Pipeline: Instruction Fetch (IF), Instruction Decode (ID), Execute (EX), Memory Access (MEM), Write Back (WB)
-* Instruction Support: 37 total instructions mapped and verified
+* Instruction Support: 31 total instructions mapped and verified
 * Hardware Verification: Deployed on Digilent Basys3 FPGA computing Fibonacci sequence in real-time via a 7-segment display
 
 ## Advanced Hazard Control
@@ -15,16 +15,14 @@
 * Load-Use Stall: Dynamic pipeline bubble insertion for load-dependent sequences
 * Store Forwarding: Resolves dependencies for stores relying on recently computed ALU values
 
-## Instruction Set Architecture (37 Supported)
-| Category | Instructions |
-| :--- | :--- |
-| R-type | ADD, SUB, AND, OR, XOR, SLL, SRL, SRA, SLT, SLTU |
-| I-type | ADDI, ANDI, ORI, XORI, SLLI, SRLI, SRAI, SLTI, SLTIU |
-| Load | LW, LH, LB, LHU, LBU |
-| Store | SW, SH, SB |
-| Branch | BEQ, BNE, BLT, BGE, BLTU, BGEU |
-| Jump | JAL, JALR |
-| U-type | LUI, AUIPC |
+## Instruction Set Architecture (31 Supported)
+* R-type: ADD, SUB, AND, OR, XOR, SLL, SRL, SRA, SLT, SLTU
+* I-type: ADDI, ANDI, ORI, XORI, SLLI, SRLI, SRAI, SLTI, SLTIU
+* Load: LW
+* Store: SW
+* Branch: BEQ, BNE, BLT, BGE, BLTU, BGEU
+* Jump: JAL, JALR
+* U-type: LUI, AUIPC
 
 ## Run Simulation
 
