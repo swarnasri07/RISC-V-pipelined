@@ -7,7 +7,7 @@
 ## Core Features
 * 5-Stage Pipeline: Instruction Fetch (IF), Instruction Decode (ID), Execute (EX), Memory Access (MEM), Write Back (WB)
 * Instruction Support: 31 total instructions mapped and verified
-* Hardware Verification: Deployed on Digilent Basys3 FPGA computing Fibonacci sequence in real-time via a 7-segment display
+* Hardware Verification: Deployed on Digilent Basys3 FPGA computing Fibonacci sequence in real-time via 7-segment display
 
 ## Advanced Hazard Control
 * Data Forwarding: Bypasses MEM/WB results directly to EX stage to resolve RAW hazards
