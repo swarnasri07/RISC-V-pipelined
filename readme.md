@@ -41,7 +41,6 @@ gtkwave cpu.vcd
 * FPGA Basys3 board
 
 ## Author
-* Bhamidipati Swarna Sri
-* Electronics and Communication Engineering, IIT Bhubaneswar
+* Bhamidipati Swarna Sri (Electronics and Communication Engineering, IIT Bhubaneswar)
 
 ---
